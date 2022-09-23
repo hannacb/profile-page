@@ -10,3 +10,52 @@ body{
   padding: 0;
   line-height: 1.5;
 }
+section {
+  max-width: 1080px;
+  margin: 0 auto;
+}
+nav {
+  background-color: #000;
+  padding: 1.25em 0 1.25em 0;
+}
+nav ul {
+ list-style-type: none;
+ margin: 0;
+ padding-left: 0;
+ display: flex;
+ justify-content: center;
+}
+nav ul li {
+  margin: 0 .5em ;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+.hero-banner > img{
+  width: 100%;
+  padding-bottom: 1rem;
+}
+
+.about-me {
+  display: grid;
+  grid-template-columns:  1fr 1fr 1fr;
+}
+
+.about-me img {
+  grid-column: 3;
+}
+
+.my-work {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+div h2 {
+  grid-column: 1 / span 3;
+}
