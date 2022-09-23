@@ -1,8 +1,7 @@
 html {
   box-sizing: border-box;
-  background-color: #e7e7e7;
 }
-* {
+*, * ::before, *::after{
   box-sizing: border-box;
 }
 body{
