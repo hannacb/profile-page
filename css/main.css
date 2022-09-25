@@ -44,6 +44,7 @@ nav ul li a:hover {
 .about-me {
   display: grid;
   grid-template-columns:  1fr 1fr 1fr;
+  align-items: center;
 }
 
 .about-me img {
@@ -53,6 +54,10 @@ nav ul li a:hover {
 .my-work {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  background-color: #eee;
+  align-items: center;
+  gap: 1.5rem;
+  padding-left: 1.5em;
 }
 
 div h2 {
