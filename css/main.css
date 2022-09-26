@@ -52,7 +52,7 @@ nav ul li a:hover {
   grid-template-columns:  1fr .5fr 1fr;
   align-items: center;
   background-color: #F2A172;
-  padding: 0 1em 1em 1em;
+  padding: 0 1em 1em 2em;
 }
 
 .about-me img {
@@ -73,10 +73,41 @@ nav ul li a:hover {
   grid-template-columns: 1fr 1fr 1fr;
   background-color: #eee;
   align-items: center;
-  gap: 1.5rem;
-  padding-left: 1.5em;
+  gap: 1rem;
+  padding-bottom: 1.5rem;
+  padding-left: 1.5rem;
 }
 
+.my-work img {
+  object-fit: contain;
+  width:  325px;
+  height: 500px;
+  overflow: hidden;
+  transition: transform .5s ease;
+}
+
+.my-work img:hover {
+  transform: scale(1.5);
+  object-fit: contain;
+}
+
+#sustain {
+  object-fit: cover;
+}
+
+#sustain :hover {
+  object-fit: contain;
+}
 div h2 {
   grid-column: 1 / span 3;
+}
+
+footer {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  background-color: #000;
+  color: #fff;
+  margin-top: 1.25rem;
+
 }
