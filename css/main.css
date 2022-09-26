@@ -21,6 +21,7 @@ body{
 }
 section {
   max-width: 1080px;
+  min-width: 750px;
   margin: 0 auto;
 }
 nav {
@@ -88,7 +89,6 @@ nav ul li a:hover {
 
 .my-work img:hover {
   transform: scale(1.5);
-  object-fit: contain;
 }
 
 .my-work a {
