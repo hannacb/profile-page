@@ -63,7 +63,7 @@ nav ul li a:hover {
 }
 
 .text h2 {
-  font-size: 30px;
+  font-size: 1.875rem;
 }
 
 .text {
@@ -75,9 +75,9 @@ nav ul li a:hover {
   grid-template-columns: 1fr 1fr 1fr;
   background-color: #eee;
   align-items: center;
-  gap: 1rem;
-  padding-bottom: 1.5rem;
-  padding-left: 1.5rem;
+  gap: 1em;
+  padding-bottom: 1.5em;
+  padding-left: 1.5em;
 }
 
 .my-work img {
@@ -94,14 +94,14 @@ nav ul li a:hover {
 
 .my-work a {
   grid-column: 2;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: bold;
-  padding-left: 5.5rem;
+  padding-left: 5.5em;
   text-decoration: none;
   background-color: #F25E6B;
   border: 3px solid #8CBF3F;
-  border-radius: 3rem;
-  padding: .5rem 0 .5rem 7rem;
+  border-radius: 3em;
+  padding: .5em 0 .5em 5.5em;
   color: #fff;
 
 }
@@ -110,7 +110,7 @@ nav ul li a:hover {
   object-fit: cover;
 }
 
-#sustain :hover {
+#sustain:hover {
   object-fit: contain;
 }
 div h2 {
@@ -123,6 +123,6 @@ footer {
   justify-content: center;
   background-color: #000;
   color: #fff;
-  margin-top: 1.25rem;
+  margin-top: 1.25em;
 
 }
