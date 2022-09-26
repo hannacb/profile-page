@@ -91,6 +91,20 @@ nav ul li a:hover {
   object-fit: contain;
 }
 
+.my-work a {
+  grid-column: 2;
+  font-size: 20px;
+  font-weight: bold;
+  padding-left: 5.5rem;
+  text-decoration: none;
+  background-color: #F25E6B;
+  border: 3px solid #8CBF3F;
+  border-radius: 3rem;
+  padding: .5rem 0 .5rem 7rem;
+  color: #fff;
+
+}
+
 #sustain {
   object-fit: cover;
 }
