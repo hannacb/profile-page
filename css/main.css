@@ -13,12 +13,12 @@ body{
 
 .hero-banner {
   width: 100%;
-  height: 100%;
+  height: 50vh;
   background-color: #fff;
-  background-image: url(images/boots.jpg);
+  background-image: url(../images/boots.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: contain;
 }
 section {
   max-width: 1080px;
